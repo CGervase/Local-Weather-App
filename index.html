@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>FCC - Local Weather App</title>
+    
+    
+    
+    <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
+
+        <link rel="stylesheet" href="css/style.css">
+
+    
+    
+    
+  </head>
+
+  <body>
+
+    <h1>Local Weather App</h1>
+<div class="container-fluid" id="main">
+  <div class="row">
+    <div class="col-xs-6" id="left-column">
+      <h2 id="location">City, state</h2>
+      <img class="icon" src="http://icons.wxug.com/i/c/a/partlycloudy.gif" alt="Partly cloudy">
+      <h3 id="condition">Partly cloudy</h3>
+      <span id="temp">0°F</span>
+      <div id="temp-buttons">
+        <button type="button" class="btn btn-default" id="switch">Imperial/Metric</button>
+      </div>
+    </div>
+    <div class="col-xs-6" id="right-column">
+      <ul id="misc">
+        <li id="humidity">Humidity: 0%</li>
+        <li id="dewpoint">Dewpoint: 0°F</li>
+        <li id="wind">Wind: NNW 0.0 MPH</li>
+        <li id="visibility">Visibility: 0 Miles</li>
+        <li id="precip">Today's precipitation: 0.00 in</li>
+      </ul>
+    </div>
+  </div>
+</div>
+<footer>Coded by Charles Gervase.<br>API provided by:
+<img src="https://icons.wxug.com/logos/JPG/wundergroundLogo_4c_horz.jpg" href="https://www.wunderground.com/" id="banner"></footer>
+    <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+
+        <script src="js/index.js"></script>
+
+    
+    
+    
+  </body>
+</html>
